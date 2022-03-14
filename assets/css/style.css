@@ -1,0 +1,96 @@
+
+h1{
+    font-size: 4rem !important;
+    color: orange;
+    opacity: .5;
+}
+.letter{
+    opacity: .5;
+}
+.topbar .container .contact a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+}
+.topbar .container .contact a:hover{
+    text-decoration: underline;
+}
+
+.topbar .container .icons a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.navbar-logo{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+.hero{
+    width: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../images/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    position: relative;
+}
+.weather{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/weather.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.validation{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/validation.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.task-app{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/task.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.countdown{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/countdown.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.quiz-app{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/quizz.png');
+    background-position: center;
+    background-size: cover;
+}
+.threed{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/threed.jpg');
+    background-size: cover;
+}
+.stagger{
+    background-image:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../images/3d.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.scroll-magic{
+    background-image:linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url('../images/scrollmagic.png');
+    background-size: cover;
+}
+.card{
+    position: relative;
+    cursor: pointer;
+    height: 150px;
+}
+.card span{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    color: #000;
+    background-color: #fff;
+    padding: 5px 12px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 20px;
+}
